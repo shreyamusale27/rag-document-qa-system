@@ -1,0 +1,53 @@
+# ===========================
+# Python / Backend
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv/
+venv/
+env/
+*.log
+
+# FAISS indexes (large binary files, regenerated at runtime)
+backend/faiss_indexes/
+
+# Uploaded PDFs (user data, not part of source)
+backend/uploads/
+
+# Document registry (runtime state)
+backend/document_registry.json
+
+# ===========================
+# Node / Frontend
+# ===========================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ===========================
+# OS / Editor
+# ===========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===========================
+# Misc
+# ===========================
+*.zip
+*.tar.gz
